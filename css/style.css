@@ -128,6 +128,12 @@ h6 {
 	top: 0;
 	left: 0;
 	width: 100%; 
+	transition: 0.2s linear;
+	padding-bottom: 20px;
+	z-index: 50;
+}
+.header_active {
+	background: #0E1D28;
 }
 .header__wrapper {
 	display: flex;
@@ -226,6 +232,7 @@ h6 {
 /* BENEFITS STYLES START */
 .benefits {
 	padding-bottom: 131px;
+
 }
 
 .benefits__wrap {
@@ -262,11 +269,12 @@ h6 {
 }
 .benefits__card-icon {
 	margin-bottom: 37px;
-	max-width: 66px;
 }
 .benefits__card-pic {
 	display: block;
+	width: 66px;
 }
+
 .benefits__card-title {
 	font-weight: 500;
 	font-size: 18px;
@@ -301,7 +309,7 @@ h6 {
 /* PLACES STYLES START */
 
 .places {
-	padding-bottom: 130px;
+	margin-bottom: 130px;
 }
 .places__caption {
 	display: flex;
@@ -352,7 +360,6 @@ h6 {
 	transform: scale(1.05);
 }
 
-
 .places__card-pic {
 	width: 100%;
 	transition: 0.15s all;
@@ -395,3 +402,216 @@ h6 {
 
 
 /* PLACES STYLES END */
+
+/* TOURS STYLES START */
+.tours {
+	margin-bottom: 139px;
+}
+
+.tours__tour {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 0 108px;
+	align-items: center;
+	margin-bottom: 77px;
+}
+
+.tour {
+}
+
+.tour__photo {
+}
+.tour__pic {
+}
+
+.tour__info {
+	padding-left: 47px;
+}
+.tour__title {
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 1.3;
+	margin-bottom: 85px;
+}
+.tour__desc {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	margin-bottom: 58px;
+}
+
+.tour__more {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #006DFE;
+	padding-right: 59px;
+	background: url('../img/arrow/arrow-right.svg') no-repeat right center;
+}
+.tour__more:hover,
+.tour__more:focus {
+	opacity: 0.65;
+}
+
+/* TOURS STYLES END */
+
+/* TOP PLACES STYLES START */
+
+.top {
+	margin-bottom: 86px;
+}
+
+.top__title {
+	margin-bottom: 54px;
+}
+
+.top__cards {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 57px;
+}
+.top__card {
+	display: flex;
+	flex-direction: column;
+}
+
+.top__card-pic {
+	position: relative;
+	margin-bottom: 45px;
+}
+.top__card-thumb {
+}
+
+.top__card-stats {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: flex-end;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	/* background: rgba(21, 24, 36, 0.6); */
+	padding: 16px 25px;
+}
+.top__card-title {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 1.3;
+	color: #FFFFFF;
+	margin: 0 auto 0 0;
+}
+
+.top__card-likes {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #FFFFFF;
+	padding-right: 20px;
+	background: url('../img/icons/heart-ico.svg') no-repeat right;
+	margin-right: 14px;
+}
+.top__card-likes-value {
+}
+
+.top__card-comments {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #FFFFFF;
+	padding-right: 23px;
+	background: url('../img/icons/comment-ico.svg') no-repeat right;
+}
+.top__card-comments-value {
+}
+.top__card-desc {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	margin-bottom: 31px;
+}
+.top__card-more {
+	width: 118px;
+	padding: 12px 19px;
+	background: #006DFE;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.1;
+	margin: auto 0 0 0;
+}
+.top__card-more:hover, .top__card-more:active, .top__card-more:focus {
+	background: #0059CE
+}
+/* TOP PLACES STYLES END */
+
+/* VIDEOS STYLES START */
+
+.videos {
+	width: 100%;
+}
+.videos__wrapper {
+	max-width: 1410px;
+	margin: 0 auto;
+	position: relative;
+}
+.video__item {
+	padding-top: 56.25%;
+}
+.video__element {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+/* VIDEOS STYLES END */
+
+/* FOOTER STYLES START */
+.footer {
+	padding: 119px 0;
+	background: #0E1D28;
+}
+.footer__item {
+	display: flex;
+	flex-wrap: wrap;
+}
+.footer__logo {
+	width: 50%;
+}
+.footer__logo-pic {
+}
+
+.footer__nav {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 50%;
+}
+
+
+.footer__menu {
+}
+.footer__menu-item {
+}
+.footer__menu-title {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 1.3;
+	color: #FFFFFF;
+	margin-bottom: 10px;
+}
+.footer__menu-link {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #fff;
+
+}
+.footer__menu-link:hover, .footer__menu-link:focus, .footer__menu-link:active {
+	opacity: .55;
+}
+
+
+/* FOOTER STYLES END */
