@@ -236,7 +236,7 @@ h6 {
 
 .intro {
 	min-height: 100vh;
-	background: url("/img/background/background-min.jpg") no-repeat center;
+	background: url("../img/background/background-min.jpg") no-repeat center;
 	background-size: cover;
 	padding-top: 263px;
 	padding-bottom: 223px;
