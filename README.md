@@ -1,4 +1,4 @@
-# [LandingPage-Odigo](chkkris.github.io/LandingPage-Odigo/)
+# [LandingPage-Odigo](https://chkkris.github.io/LandingPage-Odigo/)
 
 * Adaptive layout
 * Working with the layout from Figma
